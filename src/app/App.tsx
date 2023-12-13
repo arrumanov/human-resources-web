@@ -2,6 +2,7 @@
 import { Modal, Skeleton } from 'antd';
 import AppBody from './AppBody';
 import { useKeycloak } from '@react-keycloak/web'
+import '../styles/App.less';
 
 //modify default ant behaviour
 Modal.defaultProps = { ...Modal.defaultProps, maskClosable: false };
